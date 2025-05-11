@@ -1,0 +1,76 @@
+@mixin text-title {
+    font-weight: 700;
+    font-size: 20px;
+    @media (min-width: 1024px) {
+        font-size: 21px;
+    }
+    @media (min-width: 1440px) {
+        font-size: 23px;
+    }
+}
+
+@mixin subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    @media (min-width: 1024px) {
+        font-size: 19px;
+    }
+    @media (min-width: 1440px) {
+        font-size: 21px;
+    }
+}
+
+@mixin text-button {
+    font-weight: 600;
+    font-size: 17px;
+    @media (min-width: 1024px) {
+        font-size: 18px;
+    }
+    @media (min-width: 1440px) {
+        font-size: 20px;
+    }
+}
+
+@mixin text-title-block {
+    font-weight: 700;
+    font-size: 17px;
+    @media (min-width: 1024px) {
+        font-size: 18px;
+    }
+    @media (min-width: 1440px) {
+        font-size: 20px;
+    }
+}
+
+@mixin text-menu {
+    font-weight: 700;
+    font-size: 17px;
+    @media (min-width: 1024px) {
+        font-size: 18px;
+    }
+    @media (min-width: 1440px) {
+        font-size: 20px;
+    }
+}
+
+@mixin text-header {
+    font-weight: 900;
+    font-size: 16px;
+    @media (min-width: 1024px) {
+        font-size: 17px;
+    }
+    @media (min-width: 1440px) {
+        font-size: 19px;
+    }
+}
+
+@mixin text-block {
+    font-weight: 500;
+    font-size: 16px;
+    @media (min-width: 1024px) {
+        font-size: 17px;
+    }
+    @media (min-width: 1440px) {
+        font-size: 19px;
+    }
+}

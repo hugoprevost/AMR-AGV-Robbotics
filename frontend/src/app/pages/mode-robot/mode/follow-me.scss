@@ -1,0 +1,43 @@
+@import "../../../assets/variables.scss";
+
+.followme-content{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    position: relative;
+    top: 80px;
+    height: 54%;
+    @media (min-width: 1023px) {
+        height: 63%;
+    }
+    @media (min-width: 1440px) {
+        height: 75%;
+        padding: 40px;
+    }
+ }
+
+.content-followme{
+    display: flex;
+    padding-top: 16px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    &-map{
+        justify-content: center;
+        width: 50%;
+        padding-right: 24px;
+    }
+    &-text-block{
+        width: 50%;
+        text-align: center;
+        &-tittle{
+            @include subtitle;
+            color: var(--dark_blue_background);
+            margin-bottom: 16px;
+        }
+        &-p{
+            @include text-block;
+            color: var(--dark_blue_background);
+        }
+    }
+}

@@ -1,0 +1,96 @@
+@import "../../assets/variables.scss";
+
+.content-container-options{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 24px;
+    top: 80px;
+    height: 54%;
+    @media (min-width: 1023px) {
+        height: 63%;
+    }
+    @media (min-width: 1440px) {
+        height: 75%;
+        padding: 40px;
+    }
+}
+
+.block-options{
+    width: 100%;
+    margin-bottom: 16px;
+    &-titre{
+        @include subtitle;
+        color: var(--dark_blue_background);
+        padding-bottom: 10px;    
+    }
+    &-all{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        height: 100%;
+        &-haut{
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            &-1{
+                background-color: var(--page_blocks);
+                padding: 24px 0px;
+                border-radius: 10px;
+                color: var(--dark_blue_background);
+                @include text-button;
+                text-align: center;
+                width: 22%;
+                @media (min-width: 1023px) {
+                    padding: 48px 0px;
+                }
+                @media (min-width: 1440px) {
+                    padding: 72px 0px;
+                }
+                &-texte{
+                    width: 100%;
+                    padding: 24px 0px;
+                }
+            }
+        }
+        &-bas{
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            &-1{
+                background-color: var(--page_blocks);
+                padding: 24px 0px;
+                border-radius: 10px;
+                color: var(--dark_blue_background);
+                @include text-button;
+                text-align: center;
+                width: 48%;
+                @media (min-width: 1023px) {
+                    padding: 48px 0px;
+                }
+                @media (min-width: 1440px) {
+                    padding: 72px 0px;
+                }
+                & a{
+                    text-decoration: none;
+                    color: var(--dark_blue_background);
+                }
+            }
+        }
+    }
+    &-img-lock{
+        position: absolute;
+        top: 72%;
+        left: 93%;
+        @media (min-width: 1023px) {
+            top: 70%;
+            left: 93%;
+        }
+        @media (min-width: 1440px) {
+            top: 76%;
+            left: 95%;
+        }
+    }
+}

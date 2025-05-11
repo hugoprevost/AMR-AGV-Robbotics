@@ -1,0 +1,88 @@
+{
+    "Dernières missions réalisées :": "Ostatnie zrealizowane misje :",
+    "Information sur le robot :": "Informacje o robocie :",
+    "Nom de la dernière mission réalisée": "Nazwa ostatniej zrealizowanej misji",
+    "Dernière recharge le 00/00 à 16h00": "Ostatnia ładowanie 00/00 o 16:00",
+    "Mise à jour du 00/00": "Aktualizacja z 00/00",
+
+    "Mission à réalisée": "Misja do wykonania",
+    "Missions favorites": "Ulubione misje",
+    "Toutes les missions": "Wszystkie misje",
+
+    "Mission en cours :": "Bieżąca misja:",
+    "Play mission": "Zagraj misję",
+    "Stop mission": "Zatrzymaj misję",
+    "Pause mission": "Pauza misji",
+    "Rechercher une mission": "Szukaj misji",
+    "Nom de la mission": "Nazwa misji",
+    "Valider": "Zatwierdź",
+
+    "Différents mode de navigation du robot": "Różne tryby nawigacji robota",
+    "Mode Automatique": "Tryb automatyczny",
+    "Mode Follow-me": "Tryb Follow-me",
+    "Mode Teleoperation": "Tryb Teleoperacji",
+    "Mode Manuel": "Tryb ręczny",
+
+    "Follow-Me en attente": "Follow-Me czeka",
+    "Pressez le bouton vert pour démarer": "Naciśnij zielony przycisk, aby rozpocząć",
+
+    "Les roues ne sont plus bloquées": "Koła nie są już zablokowane",
+    "Mode non accessible :": "Tryb niedostępny:",
+    "Follow-me": "Follow-me",
+    "Automatique": "Automatyczny",
+    "Bloquer les roues": "Zablokować koła",
+
+    "Déplacement Teleop :": "Ruch Teleop:",
+    "Déplacement": "Ruch",
+    "Élévation": "Podniesienie",
+    "Hauteur :": "Wysokość:",
+
+    "Paramètres du robot": "Ustawienia robota",
+    "Save Log": "Zapisz log",
+    "Texte": "Tekst",
+    "Init": "Inicjalizacja",
+    "Informations": "Informacje",
+    "Options supplémentaires": "Dodatkowe opcje",
+
+    "Export Log": "Eksportuj log",
+    "Affichage": "Wyświetlanie",
+    "Langue": "Język",
+    "Autocalibration": "Autokalibracja",
+    "Entrer mot de passe": "Wprowadź hasło",
+    "Envoyer": "Wyślij",
+
+    "Choix de la langue": "Wybór języka",
+    "Anglais": "Angielski",
+    "Français": "Francuski",
+    "Espagnol": "Hiszpański",
+    "Allemand": "Niemiecki",
+    "Portugais": "Portugalski",
+    "Polonais": "Polski",
+    "Italien": "Włoski",
+
+    "Gestion des informations": "Zarządzanie informacjami",
+    "Retour": "Powrót",
+
+    "mode : ": "tryb:",
+    "Manuel": "Ręczny",
+    "Follow Me": "Follow Me",
+    "Téléopération": "Teleoperacja",
+
+    "Accueil": "Główna",
+    "Missions": "Misje",
+    "Mode Robot": "Tryb robota",
+    "Options": "Opcje",
+    "Gestion": "Zarządzanie",
+
+    "Il semblerait que la page que vous cherchez n’existe pas": "Wydaje się, że strona, której szukasz, nie istnieje",
+    "Retour à la page principale": "Wróć do strony głównej",
+
+    "Mot de passe": "Hasło",
+    "Changer le code": "Zmień hasło",
+    "Entrez votre ancien code": "Wprowadź swoje stare hasło",
+    "Entrez le nouveau code": "Wprowadź nowe hasło",
+    "Changer le nom du robot": "Zmień nazwę robota",
+    "Changer le mot de passe": "Zmień hasło",
+    "Nom actuel": "Aktualna nazwa",
+    "Chargement...": "Ładowanie..."
+}

@@ -1,0 +1,52 @@
+@import "../../assets/variables.scss";
+
+.content-modal-search{
+    background-color: white;
+    height: 45%;
+    width: 100%;
+    @media (min-width: 1440px) {
+        height: 45%;
+    }
+    &-title{
+        text-align: center;
+        padding: 24px 0px;
+        @include text-title-block;
+        color: var(--dark_blue_background);
+        @media (min-width: 1440px) {
+            padding: 64px 0px;
+        }
+    }
+    &-input{
+        width: 100%;
+        text-align:center;
+        margin-bottom: 24px;
+        @media (min-width: 1440px) {
+            margin-bottom: 64px;
+        }
+    }
+    &-confirm{
+        width: 25%;
+        background-color: var(--dark_blue_background);
+        text-align: center;
+        padding: 16px;
+        @include text-title-block;
+        color: white;
+        margin: auto;
+        border-radius: 30px;
+    }
+}
+
+.search-input{
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid var(--dark_blue_background);
+    @media (min-width: 1440px) {
+        height: 60px;
+    }
+
+} ::placeholder {
+    text-align: center; 
+    @include text-button;
+    color: var(--dark_blue_background);
+}

@@ -1,0 +1,78 @@
+@import "../../assets/variables.scss";
+
+.content-container-gestion{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 24px;
+    top: 80px;
+    height: 54%;
+    @media (min-width: 1023px) {
+        height: 63%;
+    }
+    @media (min-width: 1440px) {
+        height: 75%;
+        padding: 40px;
+    }
+}
+
+.gestion-erreur{
+    @include subtitle;
+    color: var(--dark_blue_background);
+    margin-bottom: 16px; 
+    &-block{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 90%;
+        justify-content: space-between;
+        &-liste{
+            display: flex;
+            overflow-y: scroll;
+            flex-direction: column;
+            width: 90%;
+            scrollbar-color: var(--dark_blue_background) var(--page_blocks);
+            scrollbar-width: 50px;
+            scroll-padding-block-start: 20px;
+            @media (min-width: 1440px) {
+                width: 93%;
+            }
+            @media (min-width: 1440px) {
+                width: 93%;
+            }
+        }
+        &-button{
+            width: 10%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-end;
+            @media (min-width: 1440px) {
+                width: 5%;
+            }
+            &-up{
+                display: flex;
+                padding: 24px 16px;
+                text-align: center;
+                background-color: var(--page_blocks);
+                border-radius: 10px;
+                justify-content: center;
+                @media (min-width: 1440px) {
+                    padding: 16px 40px;
+                }
+            }
+            &-down{
+                display: flex;
+                padding: 24px 16px;
+                text-align: center;
+                background-color: var(--page_blocks);
+                border-radius: 10px;
+                justify-content: center;
+                @media (min-width: 1440px) {
+                    padding: 16px 40px;
+                }
+            }
+        }
+    }
+}

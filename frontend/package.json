@@ -1,0 +1,52 @@
+{
+  "name": "sherpa-ihm-robot",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "axios": "^1.7.9",
+    "cra-template": "1.2.0",
+    "i18next": "^24.2.2",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "i18next-http-backend": "^3.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.1",
+    "react-internet-meter": "^1.1.1",
+    "react-joystick-component": "^6.2.1",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "5.0.1",
+    "roslib": "^1.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "file-loader": "^6.2.0",
+    "sass": "^1.82.0"
+  }
+}

@@ -1,0 +1,57 @@
+@import "../../../assets/variables.scss";
+
+.manuel-content{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    position: relative;
+    top: 80px;
+    height: 54%;
+    @media (min-width: 1023px) {
+        height: 63%;
+    }
+    @media (min-width: 1440px) {
+        height: 75%;
+        padding: 40px;
+    }
+ }
+
+.content-manuel{
+    display: flex;
+    padding-top: 16px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    &-map{
+        justify-content: center;
+        width: 50%;
+        padding-right: 24px;
+    }
+    &-text-block{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        &-tittle{
+            @include subtitle;
+            color: var(--dark_blue_background);
+            margin-bottom: 16px;
+            text-align: left;
+        }
+        &-p{
+            @include text-block;
+            color: var(--dark_blue_background);
+            text-align: left;
+        }
+        &-button{
+            width: 80%;
+            background-color: var(--dark_blue_background);
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            padding: 12px 0px;
+            @include text-button;
+        }
+    }
+}

@@ -1,0 +1,84 @@
+@import "../../assets/variables.scss";
+
+.content-container-options-lock{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 24px;
+    top: 80px;
+    height: 54%;
+    @media (min-width: 1023px) {
+        height: 63%;
+    }
+    @media (min-width: 1440px) {
+        height: 75%;
+        padding: 40px;
+    }
+}
+
+.block-options-lock-affichage{
+    width: 100%;
+    margin-bottom: 16px;
+    &-titre{
+        @include subtitle;
+        color: var(--dark_blue_background);
+        padding: 10px 0px;    
+    }
+}
+
+.form-nom-robot{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 54%;
+    align-items: center;
+    @media (min-width: 1023px) {
+        height: 63%;
+        padding: 24px;
+    }
+    @media (min-width: 1440px) {
+        height: 75%;
+        padding: 40px;
+        margin-top: 48px;
+    }
+    &-input{
+        width: 50%;
+        text-align: center;
+        padding: 24px;
+        border-radius: 10px;
+        border-color: var(--dark_blue_background);
+        margin-top: 8px;
+        @include text-button;
+        @media (min-width: 1023px) {
+            margin-top: 32px;
+        }
+    }
+    &-button{
+        padding: 24px;
+        margin-top: 16px;
+        width: 50%;
+        border-radius: 10px;
+        background-color: var(--dark_blue_background);
+        color: #fff;
+        @include text-button;
+        @media (min-width: 1023px) {
+            margin-top: 32px;
+        }
+        @media (min-width: 1440px) {
+            margin-top: 48px;
+        }
+    }
+}
+
+.form-container {
+    display: flex; /* Utilisation de flexbox pour l'alignement horizontal */
+    gap: 50px; /* Espacement entre les deux champs */
+}
+  
+.form-nom-robot-input {
+    width: 45%; /* Largeur des champs d'entrée, ajuste selon tes besoins */
+    padding: 24px;
+    margin: 5px;
+    border: 1px solid #444466;
+    border-radius: 10px;
+}

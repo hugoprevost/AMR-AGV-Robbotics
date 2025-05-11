@@ -1,0 +1,57 @@
+@import "../../assets/variables.scss";
+
+.collapse-erreur {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    margin-bottom: 16px;
+    @media (min-width: 1440px) {
+        margin-bottom: 24px;
+    }
+    &-content {
+        width: 100%;
+        display: flex;
+        background-color: var(--page_blocks);
+        padding: 16px 24px;
+        border-radius: 10px;
+        justify-content: space-between;
+        gap: 10px;
+        &-block{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 16px;
+        }
+        &-titre {
+            @include text-title-block;
+            width: 40%;
+            color: var(--dark_blue_background);
+        }
+        &-accroche{
+            color: var(--dark_blue_background);
+            @include text-block;
+        }
+        &-description {
+            @include text-block;
+        }
+    }
+}
+
+.erreur-list{
+    width: 90%;
+}
+
+.erreur-arrow{
+    width: 5%;
+    margin: auto;
+}
+
+
+.erreur-cros{
+    width: 5%;
+}
+
+.erreur-cros-img{
+    @media (min-width: 1440px) {
+        width: 35px;
+    }
+}

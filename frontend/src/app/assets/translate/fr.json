@@ -1,0 +1,89 @@
+{
+    "Dernières missions réalisées": "Dernières missions réalisées",
+    "Information sur le robot :": "Information sur le robot :",
+    "Nom de la dernière mission réalisée": "Nom de la dernière mission réalisée",
+    "Dernière recharge le 00/00 à 16h00": "Dernière recharge le 00/00 à 16h00",
+    "Mise à jour du 00/00": "Mise à jour du 00/00",
+
+    "Mission à réalisée": "Mission à réalisée",
+    "Missions favorites": "Missions favorites",
+    "Toutes les missions": "Toutes les missions",
+
+    "Mission en cours :": "Mission en cours :",
+    "Play mission": "Play mission",
+    "Stop mission": "Stop mission",
+    "Pause mission": "Pause mission",
+    "Rechercher une mission": "Rechercher une mission",
+    "Nom de la mission": "Nom de la mission",
+    "Valider": "Valider",
+    
+    "Différents mode de navigation du robot": "Différents mode de navigation du robot",
+    "Mode Automatique": "Mode Automatique",
+    "Mode Follow-me": "Mode Follow-me",
+    "Mode Teleoperation": "Mode Teleoperation",
+    "Mode Manuel": "Mode Manuel",
+
+    "Follow-Me en attente": "Follow-Me en attente",
+    "Pressez le bouton vert pour démarer": "Pressez le bouton vert pour démarer",
+
+    "Les roues ne sont plus bloquées": "Les roues ne sont plus bloquées",
+    "Mode non accessible :": "Mode non accessible :",
+    "Follow-me": "Follow-me",
+    "Automatique": "Automatique",
+    "Automatic": "Automatique",
+    "Bloquer les roues": "Bloquer les roues",
+
+    "Déplacement Teleop :": "Déplacement Teleop :",
+    "Déplacement": "Déplacement",
+    "Élévation": "Élévation",
+    "Hauteur :": "Hauteur :",
+
+    "Paramètres du robot": "Paramètres du robot",
+    "Save Log": "Save Log",
+    "Texte": "Texte",
+    "Init": "Init",
+    "Informations": "Informations",
+    "Options supplémentaires": "Options supplémentaires",
+
+    "Export Log": "Export Log",
+    "Affichage": "Affichage",
+    "Langue": "Langue",
+    "Autocalibration": "Autocalibration",
+    "Entrer mot de passe": "Entrer mot de passe",
+    "Envoyer": "Envoyer",
+
+    "Choix de la langue": "Choix de la langue",
+    "Anglais": "Anglais",
+    "Français": "Français",
+    "Espagnol": "Espagnol",
+    "Allemand": "Allemand",
+    "Portugais": "Portugais",
+    "Polonais": "Polonais",
+    "Italien": "Italien",
+
+    "Gestion des informations": "Gestion des informations",
+    "Retour": "Retour",
+
+    "mode : ": "mode :",
+    "Manuel": "Manuel",
+    "Follow Me": "Follow Me",
+    "Téléopération": "Téléopération",
+
+    "Accueil": "Accueil",
+    "Missions": "Missions",
+    "Mode Robot": "Mode Robot",
+    "Options": "Options",
+    "Gestion": "Gestion",
+
+    "Il semblerait que la page que vous cherchez n’existe pas": "Il semblerait que la page que vous cherchez n’existe pas",
+    "Retour à la page principale": "Retour à la page principale",
+
+    "Mot de passe": "Mot de passe",
+    "Changer le code": "Changer le code",
+    "Entrez votre ancien code": "Entrez votre ancien code",
+    "Entrez le nouveau code": "Entrez le nouveau code",
+    "Changer le nom du robot": "Changer le nom du robot",
+    "Changer le mot de passe": "Changer le mot de passe",
+    "Nom actuel": "Nom actuel",
+    "Chargement...": "Chargement..."
+}

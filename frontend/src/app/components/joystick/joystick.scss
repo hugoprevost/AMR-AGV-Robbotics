@@ -1,0 +1,105 @@
+.test{
+    width: 200px;
+    height: 200px;
+}
+
+.test button{
+    width: 70px;
+    height: 70px;
+}
+
+.chevronUp{
+    position: absolute;
+    top: 36%;
+    left: 80.2%;
+    @media (min-width: 1440px) {
+        top: 40%;
+        left: 81.2%;
+    }
+}
+
+.chevronDown{
+    position: absolute;
+    top: 72%;
+    left: 80.2%;
+    @media (min-width: 1440px) {
+        top: 59.7%;
+        left: 81.2%;
+    }
+}
+
+.chevronLeft{
+    position: absolute;
+    top: 52.5%;
+    left: 73.5%;
+    @media (min-width: 1440px) {
+        top: 48.5%;
+        left: 77.6%;
+    }
+}
+
+.chevronRight{
+    position: absolute;
+    top: 52.5%;
+    left: 88.5%;
+    z-index: 2;
+    @media (min-width: 1440px) {
+        top: 48.5%;
+        left: 85.5%;
+    }
+}
+
+button{
+    z-index: 10;
+}
+
+.robot-chevronUp{
+    position: absolute;
+    top: 17%;
+    left: 46.6%;
+    @media (min-width: 1440px) {
+        top: 12%;
+        left: 47.7%;
+    }
+    &-img{
+        @media (min-width: 1440px) {
+            width: 90px;
+        }
+    }
+}
+
+.robot-chevronDown{
+    position: absolute;
+    top: 93%;
+    left: 46.6%;
+    @media (min-width: 1440px) {
+        top: 87%;
+        left: 47.7%;
+    }
+}
+
+.robot-chevronLeft{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    @media (min-width: 1023px) {
+        left: 40%;
+    }
+    @media (min-width: 1440px) {
+        top: 50%;
+        left: 38%;
+    }
+}
+
+.robot-chevronRight{
+    position:absolute;
+    top: 50%;
+    left: 54.5%;
+    @media (min-width: 1023px) {
+        left: 56.5%;
+    }
+    @media (min-width: 1440px) {
+        top: 50%;
+        left: 57%;
+    }
+}

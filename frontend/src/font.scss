@@ -1,0 +1,91 @@
+// Default & text block
+
+:root {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    @media (min-width: 1024px) {
+        font-size: 17px;
+    }
+    @media (min-width: 1440px) {
+        font-size: 19px;
+    }
+    
+    // Specific cases
+    
+    .ft-title {
+        font-size: 20px;
+        font-weight: 700;
+        @media (min-width: 1024px) {
+            font-size: 21px;
+        }
+        @media (min-width: 1440px) {
+            font-size: 23px;
+        }
+    }
+    
+    .ft-subtitle {
+        font-size: 17px;
+        font-weight: 700;
+        @media (min-width: 1024px) {
+            font-size: 19px;
+        }
+        @media (min-width: 1440px) {
+            font-size: 21px;
+        }
+    
+    }
+
+    .ft-button {
+        font-size: 17px;
+        font-weight: 600;
+        @media (min-width: 1024px) {
+            font-size: 18px;
+        }
+        @media (min-width: 1440px) {
+            font-size: 20px;
+        }
+    }
+
+    .ft-title-block {
+        font-size: 17px;
+        font-weight: 700;
+        @media (min-width: 1024px) {
+            font-size: 18px;
+        }
+        @media (min-width: 1440px) {
+            font-size: 20px;
+        }
+    }
+    
+    .ft-menu {
+        font-size: 17px;
+        font-weight: 700;
+        @media (min-width: 1024px) {
+            font-size: 18px;
+        }
+        @media (min-width: 1440px) {
+            font-size: 20px;
+        }
+    }
+
+    .ft-battery {
+        font-size: 18px;
+        font-weight: 700;
+        @media (min-width: 1024px) {
+            font-size: 20px;
+        }
+    }
+
+    .ft-header-caps {
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+        @media (min-width: 1024px) {
+            font-size: 18px;
+        }
+        @media (min-width: 1440px) {
+            font-size: 20px;
+        }
+    }
+}

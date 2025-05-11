@@ -1,0 +1,31 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - NODE_ENV=development
+    restart: always
+    network_mode: host
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+    environment:
+      - NODE_ENV=development
+    restart: always
+
+  rosbridge:
+    build: ./rosbridge
+    ports:
+      - "9090:9090"
+    restart: always
+    network_mode: host
+    pid: host

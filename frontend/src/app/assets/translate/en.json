@@ -1,0 +1,88 @@
+{
+    "Dernières missions réalisées :": "Latest completed missions :",
+    "Information sur le robot :": "Robot information :",
+    "Nom de la dernière mission réalisée": "Name of the last completed mission",
+    "Dernière recharge le 00/00 à 16h00": "Last recharge on 00/00 at 4:00 PM",
+    "Mise à jour du 00/00": "Update on 00/00",
+
+    "Mission à réalisée": "Mission to be completed",
+    "Missions favorites": "Favorite missions",
+    "Toutes les missions": "All missions",
+
+    "Mission en cours :": "Current mission:",
+    "Play mission": "Play mission",
+    "Stop mission": "Stop mission",
+    "Pause mission": "Pause mission",
+    "Rechercher une mission": "Search for a mission",
+    "Nom de la mission": "Mission name",
+    "Valider": "Validate",
+
+    "Différents mode de navigation du robot": "Different robot navigation modes",
+    "Mode Automatique": "Autonomous  Mode",
+    "Mode Follow-me": "Follow-me Mode",
+    "Mode Teleoperation": "Teleoperation Mode",
+    "Mode Manuel": "Manual Mode",
+
+    "Follow-Me en attente": "Follow-Me awaiting",
+    "Pressez le bouton vert pour démarer": "Press the green button to start",
+
+    "Les roues ne sont plus bloquées": "The wheels are no longer blocked",
+    "Mode non accessible :": "Mode not accessible:",
+    "Follow-me": "Follow-me",
+    "Automatique": "Autonomous ",
+    "Bloquer les roues": "Lock the wheels",
+
+    "Déplacement Teleop :": "Teleop Movement:",
+    "Déplacement": "Movement",
+    "Élévation": "Elevation",
+    "Hauteur :": "Height:",
+
+    "Paramètres du robot": "Robot settings",
+    "Save Log": "Save Log",
+    "Texte": "Text",
+    "Init": "Init",
+    "Informations": "Information",
+    "Options supplémentaires": "Additional options",
+
+    "Export Log": "Export Log",
+    "Affichage": "Display",
+    "Langue": "Language",
+    "Autocalibration": "Autocalibration",
+    "Entrer mot de passe": "Enter password",
+    "Envoyer": "Send",
+
+    "Choix de la langue": "Language selection",
+    "Anglais": "English",
+    "Français": "French",
+    "Espagnol": "Spanish",
+    "Allemand": "German",
+    "Portugais": "Portuguese",
+    "Polonais": "Polish",
+    "Italien": "Italian",
+
+    "Gestion des informations": "Information management",
+    "Retour": "Back",
+
+    "mode :": "mode:",
+    "Manuel": "Manual",
+    "Follow Me": "Follow Me",
+    "Téléopération": "Teleoperation",
+
+    "Accueil": "Home",
+    "Missions": "Missions",
+    "Mode Robot": "Robot Mode",
+    "Options": "Options",
+    "Gestion": "Management",
+
+    "Il semblerait que la page que vous cherchez n’existe pas": "It seems that the page you are looking for does not exist",
+    "Retour à la page principale": "Back to the main page",
+
+    "Mot de passe": "Password",
+    "Changer le code": "Change password",
+    "Entrez votre ancien code": "Enter your old password",
+    "Entrez le nouveau code": "Enter your new password",
+    "Changer le nom du robot": "Change the robot's name",
+    "Changer le mot de passe": "Passwort ändern",
+    "Nom actuel": "Current name",
+    "Chargement...": "Loading..."
+}
